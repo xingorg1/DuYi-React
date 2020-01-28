@@ -42,6 +42,7 @@ render();
 
 start();
 
+// react没有侵入性，可以直接用js原生的写法来监听事件。
 container.onmouseenter = function(){
     stop();
 }
